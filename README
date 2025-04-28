@@ -1,0 +1,43 @@
+# Site Rodrigo & Kiana - Instruções
+
+## Rodar localmente:
+
+1. Abra o terminal.
+2. Vá para a pasta do projeto:
+   cd caminho/para/rodrigo-kiana-site
+
+3. Instale as dependências:
+   npm install
+
+4. Rode o projeto:
+   npm run dev
+
+5. Acesse no navegador:
+   http://localhost:5173
+
+
+## Publicar no Vercel:
+
+1. Instale o Vercel CLI:
+   npm install -g vercel
+
+2. Faça login na Vercel:
+   vercel login
+
+3. Gere a build do site:
+   npm run build
+
+4. Publique o site:
+   vercel --prod
+
+### Durante o deploy:
+- Quando perguntar o diretório público, digite:
+  dist
+
+
+## Observações:
+- Para alterar fotos, vá na pasta /public.
+- Para alterar textos e informações, edite os arquivos .jsx em /src.
+- A música de fundo está configurada para tocar automaticamente no site.
+- O mapa da Chácara Canaã já está disponível na seção "Localização"
+

@@ -6,10 +6,14 @@
   "name": "rodrigo-kiana-site",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
