@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo & Kiana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop hidden>
+      <source src="musica.mp3" type="audio/mp3">
+    </audio>
+    <header>
+        <img src="casal.jpg" class="casal-principal" alt="Rodrigo & Kiana">
+        <h1>Rodrigo & Kiana</h1>
+        <p>Ela mora em Portugal, ele no Brasil.</p>
+    </header>
+    <section class="evento">
+        <h2>24 de janeiro de 2026</h2>
+        <p>Chácara Canaã - Ribeirão Pires</p>
+    </section>
+    <section class="historia">
+        <h2>Nossa História</h2>
+        <p>Rodrigo mora no Brasil, e Kiana em Portugal. Apesar da distância, descobriram que o amor supera todas as barreiras.</p>
+    </section>
+    <section class="galeria">
+        <h2>Galeria</h2>
+        <div class="fotos">
+            <img src="casal1.jpeg" alt="Foto 1">
+            <img src="casal2.jpeg" alt="Foto 2">
+            <img src="casal3.jpeg" alt="Foto 3">
+        </div>
+    </section>
+    <section class="confirmacao">
+        <h2>Confirmação de Presença</h2>
+        <form action="/confirmar" method="POST">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <div>
+                <input type="radio" name="presenca" value="Sim" required> Sim, confirmo minha presença
+                <input type="radio" name="presenca" value="Não" required> Não poderei comparecer
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section class="mapa">
+        <h2>Local do Evento</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+</body>
+</html>
